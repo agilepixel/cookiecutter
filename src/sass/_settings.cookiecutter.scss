@@ -1,0 +1,18 @@
+/*------------------------------------*\
+    _components.cookieCutter.scss
+\*------------------------------------*/
+
+
+
+/**
+ * Panel
+ */
+$c-cookiecutter__panel-bg: #000 !default;
+$c-cookiecutter__panel-text: #fff !default;
+$c-cookiecutter__panel-max-width: 300px !default;
+$c-cookiecutter__panel-left: $inuit-global-spacing-unit !default;
+$c-cookiecutter__panel-bottom: $inuit-global-spacing-unit !default;
+$c-cookiecutter__panel-padding: $inuit-global-spacing-unit !default;
+
+// Buttons
+$c-cookiecutter__reject-color: rgba(#fff, 0.7);

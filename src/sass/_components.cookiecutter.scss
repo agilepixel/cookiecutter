@@ -1,0 +1,53 @@
+/*------------------------------------*\
+    _components.cookieCutter.scss
+\*------------------------------------*/
+
+
+
+/**
+ * Cookie Cutter
+ */
+.c-cookiecutter {
+    position: fixed;
+    font-size: inherit;
+    font-family: inherit;
+    left: $c-cookiecutter__panel-left;
+    color: $c-cookiecutter__panel-text;
+    background: $c-cookiecutter__panel-bg;
+    bottom: $c-cookiecutter__panel-bottom;
+    padding: $c-cookiecutter__panel-padding;
+    max-width: $c-cookiecutter__panel-max-width;
+
+    a, a:visited {
+        color: $c-cookiecutter__panel-text;
+    }
+}
+
+    .c-cookiecutter__title {
+        font-size: 24px;
+    }
+
+    .c-cookiecutter__options {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+        .c-cookiecutter__reject {
+            border: 0;
+            padding: 0;
+            cursor: pointer;
+            background: none;
+            color: $c-cookiecutter__reject-color;
+        }
+
+        .c-cookiecutter__accept {
+            color: #fff;
+            cursor: pointer;
+            background: none;
+            padding: 10px 20px;
+            border: 2px solid #fff;
+        }
