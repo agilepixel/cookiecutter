@@ -6,9 +6,6 @@
   "main": "dist/cookiecutter.umd.js",
   "module": "dist/cookiecutter.es5.js",
   "typings": "dist/types/cookiecutter.d.ts",
-  "files": [
-    "dist"
-  ],
   "author": "Keiron Lowe <keiron@theindividualagency.com>",
   "repository": {
     "type": "git",
